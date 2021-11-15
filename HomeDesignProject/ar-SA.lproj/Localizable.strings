@@ -1,0 +1,42 @@
+/*
+  Localizable.strings
+  HomeDesignProject2
+
+  Created by Monafh on 09/04/1443 AH.
+
+*/
+"HOME DESIGN" = "تصاميم المنزل" ;
+"The Field of interior Design and  House Design Planning achieve customer satisfaction through project or in an innovative and modern way.With expert consulting services" = "يحقق مجال التصميم الداخلي وتخطيط تصميم المنزل رضا العملاء من خلال المشروع أو بطريقة مبتكرة وحديثة مع خدمات استشارية متخصصة";
+"myCell"  = "هاتفي المحمول";
+"Delete" = "حذف";
+"trash" = "سلة المهملات";
+"heart" = "قلب";
+"Home" = " الصفحة الرئيسية";
+"New" = "جديد";
+"Apartment" = "شقة";
+"CreateAccount" = "إنشاء حساب";
+" WHOOPS!  We Couldn't Find Page" = "عفواً! لم نتمكن من العثور على الصفحة";
+"Monafh" = " ";
+"5678,Street" = "شارع،٥٦٧٨ ";
+"Monafh" = " ";
+"Admin" = " مشرف";
+"Hail.342" = " حائل.٣٤٢";
+"Admin" = " مشرف";
+"  Sign In" = " تسجيل الدخول";
+"Name Or Email" = " الاسم أو البريد الإلكتروني";
+"Password" = " كلمة السر";
+"sectionHomeDesign" = " قسم تصميم المنزل";
+"Error" = " خطأ";
+"Email or Password is Incorrect" = " البريد الألكتروني أو كلمة المرور غير صحيحة";
+"OK" = " حسناً";
+"Home Design" = " تصميم المنزل";
+"Interior Design" = " تصميم داخلي";
+"interiorDesign" = " تصميم داخلي";
+"House Design Planning" = " تخطيط تصميم المنزل";
+"planningDesign" = " تصميم التخطيط";
+
+"My name is" = " الاسم";
+" And my E-mail" = "البريد الألكتروني  ";
+"And my age" = "العمر";
+ "I living in" = "انا أعيش في";
+"Furniture" = "الاثاث";

@@ -1,0 +1,75 @@
+
+/* Class = "UIButton"; configuration.title = "  Login as Guest"; ObjectID = "21K-3C-aJE"; */
+"21K-3C-aJE.configuration.title" = "  Login as Guest";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "21K-3C-aJE"; */
+"21K-3C-aJE.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "CWk-1f-vww"; */
+"CWk-1f-vww.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "."; ObjectID = "OEW-MS-4FV"; */
+"OEW-MS-4FV.text" = ".";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "RdK-1v-1lH"; */
+"RdK-1v-1lH.text" = "Label";
+
+/* Class = "UILabel"; text = "        Section For Counseling"; ObjectID = "Ryy-WI-2KC"; */
+"Ryy-WI-2KC.text" = "        Section For Counseling";
+
+/* Class = "UIButton"; configuration.title = "comment"; ObjectID = "UPZ-PM-1ir"; */
+"UPZ-PM-1ir.configuration.title" = "comment";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "UPZ-PM-1ir"; */
+"UPZ-PM-1ir.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "ZXC-Vt-sGe"; */
+"ZXC-Vt-sGe.title" = "Item";
+
+/* Class = "UIButton"; configuration.title = "more information"; ObjectID = "Zi4-Nl-0B1"; */
+"Zi4-Nl-0B1.configuration.title" = "more information";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Zi4-Nl-0B1"; */
+"Zi4-Nl-0B1.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "a7m-3y-PHj"; */
+"a7m-3y-PHj.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "AddComment"; ObjectID = "aSI-uy-jHu"; */
+"aSI-uy-jHu.title" = "AddComment";
+
+/* Class = "UILabel"; text = "."; ObjectID = "aVe-Me-abx"; */
+"aVe-Me-abx.text" = ".";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "b27-R7-VXe"; */
+"b27-R7-VXe.title" = "Item";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "e0S-Ww-Frj"; */
+"e0S-Ww-Frj.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "  Log In "; ObjectID = "f08-FI-Wbz"; */
+"f08-FI-Wbz.configuration.title" = "  Log In ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "f08-FI-Wbz"; */
+"f08-FI-Wbz.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "No account? Create one!"; ObjectID = "hEq-br-Nfb"; */
+"hEq-br-Nfb.configuration.title" = "No account? Create one!";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hEq-br-Nfb"; */
+"hEq-br-Nfb.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "add your commit"; ObjectID = "kM4-yk-yGR"; */
+"kM4-yk-yGR.placeholder" = "add your commit";
+
+/* Class = "UIButton"; configuration.title = "Register"; ObjectID = "r30-M8-Vz9"; */
+"r30-M8-Vz9.configuration.title" = "Register";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "r30-M8-Vz9"; */
+"r30-M8-Vz9.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "."; ObjectID = "r9A-bk-rff"; */
+"r9A-bk-rff.text" = ".";
+
+/* Class = "UILabel"; text = "Always at your service ..."; ObjectID = "xfK-21-zqf"; */
+"xfK-21-zqf.text" = "Always at your service ...";

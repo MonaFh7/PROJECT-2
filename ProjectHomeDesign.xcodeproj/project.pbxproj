@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7FE110B274237DC0049FD49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE110A274237DC0049FD49 /* AppDelegate.swift */; };
+		A7FE110D274237DC0049FD49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE110C274237DC0049FD49 /* SceneDelegate.swift */; };
+		A7FE11BD274239330049FD49 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7FE117E274239330049FD49 /* Localizable.strings */; };
+		A7FE11BE274239330049FD49 /* Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE1181274239330049FD49 /* Ex.swift */; };
+		A7FE11C0274239330049FD49 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE1184274239330049FD49 /* UIView.swift */; };
+		A7FE11C1274239330049FD49 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE1185274239330049FD49 /* User.swift */; };
+		A7FE11C4274239330049FD49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FE118D274239330049FD49 /* Main.storyboard */; };
+		A7FE11C5274239330049FD49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FE118F274239330049FD49 /* Assets.xcassets */; };
+		A7FE11C6274239330049FD49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FE1190274239330049FD49 /* LaunchScreen.storyboard */; };
+		A7FE11C7274239330049FD49 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE1197274239330049FD49 /* HomeViewController.swift */; };
+		A7FE11C8274239330049FD49 /* SectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE1198274239330049FD49 /* SectionTableViewController.swift */; };
+		A7FE11C9274239330049FD49 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE1199274239330049FD49 /* LoginViewController.swift */; };
+		A7FE11CA274239330049FD49 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE119A274239330049FD49 /* CreateAccountViewController.swift */; };
+		A7FE11CB274239330049FD49 /* CommentVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE119C274239330049FD49 /* CommentVC+TableView.swift */; };
+		A7FE11CC274239330049FD49 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE119D274239330049FD49 /* CommentViewController.swift */; };
+		A7FE11CD274239330049FD49 /* ExpertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE119E274239330049FD49 /* ExpertViewController.swift */; };
+		A7FE11CE274239330049FD49 /* InteriorDesignTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE11A0274239330049FD49 /* InteriorDesignTableViewCell.swift */; };
+		A7FE11CF274239330049FD49 /* InteriorDesignViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE11A1274239330049FD49 /* InteriorDesignViewControler.swift */; };
+		A7FE11D0274239330049FD49 /* InteriorDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE11A2274239330049FD49 /* InteriorDesign.swift */; };
+		A7FE11D1274239330049FD49 /* InteriorDesginCell+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE11A3274239330049FD49 /* InteriorDesginCell+CollectionView.swift */; };
+		A7FE11D2274239340049FD49 /* InteriorColectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE11A4274239330049FD49 /* InteriorColectionViewCell.swift */; };
+		A7FE11D4274239340049FD49 /* InteriorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE11A7274239330049FD49 /* InteriorCollectionViewCell.swift */; };
+		A7FE11D5274239340049FD49 /* InteriorCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE11A8274239330049FD49 /* InteriorCollectionReusableView.swift */; };
+		A7FE11D6274239340049FD49 /* InteriorDesignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE11AA274239330049FD49 /* InteriorDesignViewController.swift */; };
+		A7FE11D7274239340049FD49 /* PlanningDesignCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE11AC274239330049FD49 /* PlanningDesignCell.swift */; };
+		A7FE11D8274239340049FD49 /* planningDesignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE11AD274239330049FD49 /* planningDesignViewController.swift */; };
+		A7FE11D9274239340049FD49 /* PlanningDesignCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE11AE274239330049FD49 /* PlanningDesignCollectionCell.swift */; };
+		A7FE11DA274239340049FD49 /* PlanningDesignCell+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE11AF274239330049FD49 /* PlanningDesignCell+CollectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7FE1107274237DC0049FD49 /* ProjectHomeDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectHomeDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FE110A274237DC0049FD49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7FE110C274237DC0049FD49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A7FE1118274237DD0049FD49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7FE1181274239330049FD49 /* Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ex.swift; sourceTree = "<group>"; };
+		A7FE1184274239330049FD49 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		A7FE1185274239330049FD49 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A7FE118F274239330049FD49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7FE1191274239330049FD49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7FE1192274239330049FD49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7FE1197274239330049FD49 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A7FE1198274239330049FD49 /* SectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionTableViewController.swift; sourceTree = "<group>"; };
+		A7FE1199274239330049FD49 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A7FE119A274239330049FD49 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		A7FE119C274239330049FD49 /* CommentVC+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CommentVC+TableView.swift"; sourceTree = "<group>"; };
+		A7FE119D274239330049FD49 /* CommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		A7FE119E274239330049FD49 /* ExpertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpertViewController.swift; sourceTree = "<group>"; };
+		A7FE11A0274239330049FD49 /* InteriorDesignTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteriorDesignTableViewCell.swift; sourceTree = "<group>"; };
+		A7FE11A1274239330049FD49 /* InteriorDesignViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteriorDesignViewControler.swift; sourceTree = "<group>"; };
+		A7FE11A2274239330049FD49 /* InteriorDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteriorDesign.swift; sourceTree = "<group>"; };
+		A7FE11A3274239330049FD49 /* InteriorDesginCell+CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InteriorDesginCell+CollectionView.swift"; sourceTree = "<group>"; };
+		A7FE11A4274239330049FD49 /* InteriorColectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteriorColectionViewCell.swift; sourceTree = "<group>"; };
+		A7FE11A7274239330049FD49 /* InteriorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteriorCollectionViewCell.swift; sourceTree = "<group>"; };
+		A7FE11A8274239330049FD49 /* InteriorCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteriorCollectionReusableView.swift; sourceTree = "<group>"; };
+		A7FE11AA274239330049FD49 /* InteriorDesignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteriorDesignViewController.swift; sourceTree = "<group>"; };
+		A7FE11AC274239330049FD49 /* PlanningDesignCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanningDesignCell.swift; sourceTree = "<group>"; };
+		A7FE11AD274239330049FD49 /* planningDesignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = planningDesignViewController.swift; sourceTree = "<group>"; };
+		A7FE11AE274239330049FD49 /* PlanningDesignCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanningDesignCollectionCell.swift; sourceTree = "<group>"; };
+		A7FE11AF274239330049FD49 /* PlanningDesignCell+CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlanningDesignCell+CollectionView.swift"; sourceTree = "<group>"; };
+		A7FE11E6274239E90049FD49 /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/Main.strings"; sourceTree = "<group>"; };
+		A7FE11E72742540D0049FD49 /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7FE1104274237DC0049FD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7FE10FE274237DC0049FD49 = {
+			isa = PBXGroup;
+			children = (
+				A7FE117D274239330049FD49 /* HomeDesignProject */,
+				A7FE1108274237DC0049FD49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7FE1108274237DC0049FD49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7FE1107274237DC0049FD49 /* ProjectHomeDesign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7FE117D274239330049FD49 /* HomeDesignProject */ = {
+			isa = PBXGroup;
+			children = (
+				A7FE1195274239330049FD49 /* Controllers */,
+				A7FE1180274239330049FD49 /* Resources */,
+				A7FE1183274239330049FD49 /* Model */,
+				A7FE1186274239330049FD49 /* View */,
+				A7FE110A274237DC0049FD49 /* AppDelegate.swift */,
+				A7FE110C274237DC0049FD49 /* SceneDelegate.swift */,
+				A7FE117E274239330049FD49 /* Localizable.strings */,
+				A7FE1118274237DD0049FD49 /* Info.plist */,
+			);
+			path = HomeDesignProject;
+			sourceTree = "<group>";
+		};
+		A7FE1180274239330049FD49 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7FE1181274239330049FD49 /* Ex.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A7FE1183274239330049FD49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7FE1184274239330049FD49 /* UIView.swift */,
+				A7FE1185274239330049FD49 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7FE1186274239330049FD49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7FE118D274239330049FD49 /* Main.storyboard */,
+				A7FE118F274239330049FD49 /* Assets.xcassets */,
+				A7FE1190274239330049FD49 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7FE1195274239330049FD49 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7FE1196274239330049FD49 /* Home */,
+				A7FE119B274239330049FD49 /* Comment */,
+				A7FE119F274239330049FD49 /* InteriorHomeDesign */,
+				A7FE11A6274239330049FD49 /* Interior */,
+				A7FE11AB274239330049FD49 /* PlanningDesign */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A7FE1196274239330049FD49 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A7FE1197274239330049FD49 /* HomeViewController.swift */,
+				A7FE1198274239330049FD49 /* SectionTableViewController.swift */,
+				A7FE1199274239330049FD49 /* LoginViewController.swift */,
+				A7FE119A274239330049FD49 /* CreateAccountViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A7FE119B274239330049FD49 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				A7FE119C274239330049FD49 /* CommentVC+TableView.swift */,
+				A7FE119D274239330049FD49 /* CommentViewController.swift */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		A7FE119F274239330049FD49 /* InteriorHomeDesign */ = {
+			isa = PBXGroup;
+			children = (
+				A7FE11A1274239330049FD49 /* InteriorDesignViewControler.swift */,
+				A7FE11A0274239330049FD49 /* InteriorDesignTableViewCell.swift */,
+				A7FE11A3274239330049FD49 /* InteriorDesginCell+CollectionView.swift */,
+				A7FE11A4274239330049FD49 /* InteriorColectionViewCell.swift */,
+			);
+			path = InteriorHomeDesign;
+			sourceTree = "<group>";
+		};
+		A7FE11A6274239330049FD49 /* Interior */ = {
+			isa = PBXGroup;
+			children = (
+				A7FE11A7274239330049FD49 /* InteriorCollectionViewCell.swift */,
+				A7FE11AA274239330049FD49 /* InteriorDesignViewController.swift */,
+				A7FE11A8274239330049FD49 /* InteriorCollectionReusableView.swift */,
+				A7FE119E274239330049FD49 /* ExpertViewController.swift */,
+			);
+			path = Interior;
+			sourceTree = "<group>";
+		};
+		A7FE11AB274239330049FD49 /* PlanningDesign */ = {
+			isa = PBXGroup;
+			children = (
+				A7FE11A2274239330049FD49 /* InteriorDesign.swift */,
+				A7FE11AC274239330049FD49 /* PlanningDesignCell.swift */,
+				A7FE11AD274239330049FD49 /* planningDesignViewController.swift */,
+				A7FE11AE274239330049FD49 /* PlanningDesignCollectionCell.swift */,
+				A7FE11AF274239330049FD49 /* PlanningDesignCell+CollectionView.swift */,
+			);
+			path = PlanningDesign;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7FE1106274237DC0049FD49 /* ProjectHomeDesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FE111B274237DD0049FD49 /* Build configuration list for PBXNativeTarget "ProjectHomeDesign" */;
+			buildPhases = (
+				A7FE1103274237DC0049FD49 /* Sources */,
+				A7FE1104274237DC0049FD49 /* Frameworks */,
+				A7FE1105274237DC0049FD49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectHomeDesign;
+			productName = ProjectHomeDesign;
+			productReference = A7FE1107274237DC0049FD49 /* ProjectHomeDesign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7FE10FF274237DC0049FD49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A7FE1106274237DC0049FD49 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = A7FE1102274237DC0049FD49 /* Build configuration list for PBXProject "ProjectHomeDesign" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"ar-SA",
+			);
+			mainGroup = A7FE10FE274237DC0049FD49;
+			productRefGroup = A7FE1108274237DC0049FD49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7FE1106274237DC0049FD49 /* ProjectHomeDesign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7FE1105274237DC0049FD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FE11BD274239330049FD49 /* Localizable.strings in Resources */,
+				A7FE11C4274239330049FD49 /* Main.storyboard in Resources */,
+				A7FE11C6274239330049FD49 /* LaunchScreen.storyboard in Resources */,
+				A7FE11C5274239330049FD49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7FE1103274237DC0049FD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FE11D1274239330049FD49 /* InteriorDesginCell+CollectionView.swift in Sources */,
+				A7FE11D2274239340049FD49 /* InteriorColectionViewCell.swift in Sources */,
+				A7FE11D7274239340049FD49 /* PlanningDesignCell.swift in Sources */,
+				A7FE11CA274239330049FD49 /* CreateAccountViewController.swift in Sources */,
+				A7FE11D6274239340049FD49 /* InteriorDesignViewController.swift in Sources */,
+				A7FE11C9274239330049FD49 /* LoginViewController.swift in Sources */,
+				A7FE11D9274239340049FD49 /* PlanningDesignCollectionCell.swift in Sources */,
+				A7FE11C0274239330049FD49 /* UIView.swift in Sources */,
+				A7FE11CE274239330049FD49 /* InteriorDesignTableViewCell.swift in Sources */,
+				A7FE11BE274239330049FD49 /* Ex.swift in Sources */,
+				A7FE11D4274239340049FD49 /* InteriorCollectionViewCell.swift in Sources */,
+				A7FE11D0274239330049FD49 /* InteriorDesign.swift in Sources */,
+				A7FE11DA274239340049FD49 /* PlanningDesignCell+CollectionView.swift in Sources */,
+				A7FE11C1274239330049FD49 /* User.swift in Sources */,
+				A7FE110B274237DC0049FD49 /* AppDelegate.swift in Sources */,
+				A7FE11C7274239330049FD49 /* HomeViewController.swift in Sources */,
+				A7FE11CD274239330049FD49 /* ExpertViewController.swift in Sources */,
+				A7FE11D8274239340049FD49 /* planningDesignViewController.swift in Sources */,
+				A7FE11CF274239330049FD49 /* InteriorDesignViewControler.swift in Sources */,
+				A7FE11CC274239330049FD49 /* CommentViewController.swift in Sources */,
+				A7FE11C8274239330049FD49 /* SectionTableViewController.swift in Sources */,
+				A7FE11D5274239340049FD49 /* InteriorCollectionReusableView.swift in Sources */,
+				A7FE110D274237DC0049FD49 /* SceneDelegate.swift in Sources */,
+				A7FE11CB274239330049FD49 /* CommentVC+TableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7FE117E274239330049FD49 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7FE11E72742540D0049FD49 /* ar-SA */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		A7FE118D274239330049FD49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7FE1192274239330049FD49 /* Base */,
+				A7FE11E6274239E90049FD49 /* ar-SA */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7FE1190274239330049FD49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7FE1191274239330049FD49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7FE1119274237DD0049FD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7FE111A274237DD0049FD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7FE111C274237DD0049FD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeDesignProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monafh.ProjectHomeDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7FE111D274237DD0049FD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeDesignProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monafh.ProjectHomeDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7FE1102274237DC0049FD49 /* Build configuration list for PBXProject "ProjectHomeDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FE1119274237DD0049FD49 /* Debug */,
+				A7FE111A274237DD0049FD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7FE111B274237DD0049FD49 /* Build configuration list for PBXNativeTarget "ProjectHomeDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FE111C274237DD0049FD49 /* Debug */,
+				A7FE111D274237DD0049FD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7FE10FF274237DC0049FD49 /* Project object */;
+}
